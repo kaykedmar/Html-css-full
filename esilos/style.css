@@ -1,0 +1,22 @@
+.search { 
+    display: block;
+}
+
+.previe { 
+    display: inline-block;
+    width: 300px;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.img { 
+    width: 300px;
+    display: block;
+   
+
+  
+}
+
+.title { 
+    width: 270px;
+}
