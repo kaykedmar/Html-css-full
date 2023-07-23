@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 13 Flexbox</title>
+    <style> 
+
+         * { 
+            margin: 0;
+            color: white;
+        
+         }
+
+         .full-flex { 
+            border: 1px solid red;
+            width: 400px;
+            align-items: center;
+         }
+
+        .container { 
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            margin: 20px;
+            align-items: center;
+            border-bottom: 1px pink solid;
+            
+            
+           
+        }
+        img { 
+            cursor: pointer;
+        }
+
+        .botao { 
+            display: flex;
+            flex: 1;
+            justify-content: right;
+        }
+
+        .follow { 
+            cursor: pointer;
+            background-color: rgb(38, 166, 209);
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+         
+            font-weight: bold;
+        }
+
+        img { 
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .sobre, .popular { 
+            color: gray;
+            line-height: 24px;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="full-flex">
+        <div class="container">
+            <div class="cat"><img src="/exercises/imagens/f1a33047720e42c7939150a45839dbee.jpg" alt=""></div>
+            <div class="names">
+                <p class="nome">Oliver</p>
+                <p class="sobre">The cat</p>
+                <p class="popular">Popular</p>
+           
+            </div>
+            <div class="botao"><button class="follow">Follow</button></div>
+
+        </div>
+        <div class="container">
+            <div class="cat"><img src="/exercises/imagens/bf41215190e87e0214d254bd696e5ca2.jpg" alt=""></div>
+            <div class="names">
+                <p class="nome">Mimi</p>
+                <p class="sobre">Sleepy Cat</p>
+                <p class="popular">Popular</p>
+           
+            </div>
+            <div class="botao"><button class="follow">Follow</button></div>
+
+        </div>
+        <div class="container">
+            <div class="cat"><img src="/exercises/imagens/1490856757_23_fotos-de-gatos-fofos-tudo-sobre-gatos.jpg" alt=""></div>
+            <div class="names">
+                <p class="nome">Rex</p>
+                <p class="sobre">Happy Bulldog </p>
+                <p class="popular">Popular</p>
+           
+            </div>
+            <div class="botao"><button class="follow">Follow</button></div>
+
+        </div>
+    </div>
+
+</body>
+</html>

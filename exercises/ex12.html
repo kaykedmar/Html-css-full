@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 12 Flex-blox</title>
+    <style>
+        * { 
+            color: white;
+            font-weight: bold;
+            margin: 0;
+        
+        }
+
+        .container { 
+            border: 1px solid red;
+            height: 50px;
+            background-color: darkred;
+         
+        }
+
+        .full-menu { 
+            display: flex;
+            justify-content: space-between;
+            margin: 13px;
+        
+
+        }
+
+        .pesquisa { 
+            min-width: 500px;
+   
+            border-radius: 20px;
+            background-color: white;
+            height: 24px;
+            border: none;
+        }
+        
+
+        button { 
+            cursor: pointer;
+            background-color: rgba(255, 255, 255, 0);
+            padding: 5px;
+            border: none;
+            border: solid white 1px;
+        }
+
+        .home { 
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="full-menu">
+        <div class="home">Home</div>
+        <div class="search"><input class="pesquisa" type="text" placeholder="search"></div>
+        <div class="botao"><button>Download</button></div>
+    </div>
+</div>
+</body>
+</html>

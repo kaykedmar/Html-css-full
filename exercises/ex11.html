@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise Flex Box</title>
+    <style>
+        .flex-box { 
+            width: 200px;
+            border: 1px solid red;
+           
+        }
+
+        .casa { 
+            display: flex;
+            justify-content: space-between;
+            margin: 10px;
+        }
+
+        .botao { 
+            background-color: rgb(23, 175, 226);
+            border: none;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-box">
+
+        <div class="casa">
+        <div class="">Home</div>
+        <div class="numb"><button class="botao">14</button></div>
+        </div>
+
+        <div class="casa">
+        <div class="">Notifications</div>
+        <div class="numb"><button class="botao">3</button></div>
+        </div>
+
+        <div class="casa">
+            <div class="">Messages</div>
+            <div class="numb"><button class="botao">5</button></div>
+            </div>
+    </div>
+</body>
+</html>
