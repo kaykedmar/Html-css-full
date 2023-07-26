@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar</title>
+    <style>
+        * { 
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        img { 
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 50%;
+            display: flex;
+            margin-bottom: 10px;
+            background-color: rgb(78, 68, 68);
+            
+        }
+
+        .imagens { 
+            background-color: rgb(36, 35, 35);
+            padding: 10px;
+        }
+
+        .sidebar { 
+            position: fixed;
+            top: 20px;
+            left: 10px;
+            bottom: 0;
+            width: 200px;
+            background-color: rgb(48, 48, 48);
+            display: flex;
+        }
+
+        .right { 
+            color: gray;
+            padding-left: 10px;
+        }
+
+        .title { 
+            color: white;
+            font-size: 15px;
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="sidebar"> 
+    <div class="imagens">
+        <img src="imagens/gato1.jpg" alt="">
+        <img src="imagens/gato2.jpg" alt="">
+        <img src="imagens/gato3.jpg" alt="">
+    </div>
+    <div class="right">
+        <p class="title">INFO   </p>
+        <p># new-videos</p>
+        <p># updates</p>
+        <p># faq</p>
+    </div>
+</div>
+
+</body>
+</html>
