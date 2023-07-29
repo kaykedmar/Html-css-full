@@ -2,7 +2,36 @@
     position: fixed;
     top: 70px;
     left: 0;
-    width: 72px;
+    width: 80px;
     bottom: 0;
     background-color: white;
+   
+    
+}
+
+.sidebar-link { 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 71px;
+  
+
+
+}
+
+.sidebar-link:hover { 
+    background-color: rgb(240, 240, 240);
+  
+}
+
+.icon-sidebar { 
+    width: 23px;
+}
+
+.name { 
+    font-size: 11px;
+    margin-top: 5px;
+    font-weight: 300;
 }

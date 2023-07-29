@@ -7,9 +7,6 @@
 
 .img {
     width: 100%;
-
-
-
 }
 
 
@@ -17,6 +14,17 @@
 .trumbnail-row {
     cursor: pointer;
     margin-bottom: 15px;
+    position: relative;
+}
+
+.video-time { 
+    position: absolute;
+    background-color: black;
+    color: white;
+    right: 10px;
+    bottom: 13px;
+    font-size: 15px;
+    padding: 3px 4px;
 }
 
 .video-info-grid {
@@ -48,4 +56,23 @@
 
 .video-author {
     margin-bottom: 4px;
+}
+
+.notificaçao { 
+    position: relative;
+    z-index: 1;
+}
+
+.video-notifica { 
+    color: white;
+    text-align: center;
+    position: absolute;
+    right: 0px;
+    top: 2px;
+    background-color: red;
+    z-index: 2;
+    padding: 1px 6px;
+    border-radius: 50%;
+
+    border: 1px solid white;
 }
